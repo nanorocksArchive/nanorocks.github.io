@@ -1,7 +1,9 @@
 @extends('_includes.blog_post_base')
 
 @section('post::title', 'Today Is The Best Day Of Your Life')
+@section('post::subtitle', 'subtitle1')
 @section('post::date', 'March 01, 2016')
+@section('post::img', '/assets/img/about-bg.jpg')
 @section('post::brief', 'When you watch reality TV singing shows, the hopefuls tend to be starry eyed dreamers, who’ll look into the camera and say “I’ve always dreamed about being a singer.” They never say they’ve always dreamed of singing.')
 @section('pageTitle')- @yield('post::title')@stop
 

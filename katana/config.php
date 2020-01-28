@@ -64,7 +64,7 @@ return [
 
     'siteDescription' => 'Portfolio and personal blog on Andrej Nankov',
 
-    'pageAuthor' => 'Andrej Nankov - nanorocks',
+    'pageAuthor' => 'Andrej Nankov',
 
 
 

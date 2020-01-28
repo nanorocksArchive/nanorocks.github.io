@@ -1,9 +1,13 @@
 <div class="pagination">
     @if($previousPage)
-        <a class="button is-primary" href="@url($previousPage)">Newer posts</a>
+        <div class="clearfix">
+                <a class="btn btn-sm btn-primary m-2" href="@url($previousPage)">Newer posts</a>
+        </div>
     @endif
 
     @if($nextPage)
-        <a class="button is-primary" href="@url($nextPage)">Previous posts</a>
+        <div class="clearfix">
+                <a class="btn btn-sm btn-primary m-2" href="@url($nextPage)">Previous posts</a>
+        </div>
     @endif
 </div>
