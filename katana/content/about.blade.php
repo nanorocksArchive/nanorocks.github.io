@@ -9,8 +9,8 @@
             <div class="row">
                 <div class="col-lg-10 col-md-10 mx-auto">
                     <div class="page-heading">
-                        <h1>About Me</h1>
-                        <span class="subheading">This is what I do.</span>
+                        <h1>About</h1>
+                        <span class="subheading"><strong style="font-weight: 900">Andrej Nankov</strong></span>
                     </div>
                 </div>
             </div>
@@ -20,9 +20,37 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+                <h2>Summary</h2>
+                <p style="text-align: justify; text-justify: inter-word;">
+                    Software engineer with a <strong>Bachelor's degree</strong> (Faculty of Computer Science and Engineering - Skopje, Macedonia) experience in various fields in IT with wide skills.
+                    Familiar with each layer of the development process and comfortable to work as a member of a team or independently.
+                    Worked with different programming languages and frameworks in different fields like web, desktop-mobile software development and system administration.
+                    Also, related to open source with interest in leveraging technology to make the world a better place.
+                </p>
+                @markdown
+                ## Current work
+
+                Working in the field of web development & web services, web design, testing, server configuration solutions.
+
+
+                ## Top 3 programming languages
+
+                 - PHP
+                 - JavaScript
+                 - Python
+
+
+                ## Goal
+
+                 - Generalist with focus on concepts.
+                 - Believer that success in career depends on persistence and willingness to learn.
+                 - Understanding client requirements and communicating the progress of the project are core values in achieving the project goals.
+
+
+                ## Blog
+                Content about technology.
+                **[Click here](/blog)**
+                @endmarkdown
             </div>
         </div>
     </div>
