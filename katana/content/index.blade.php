@@ -1,5 +1,7 @@
 @extends('_includes.base')
 
+@section('pageTitle', 'Home')
+
 @section('body')
 
     <!-- Page Header -->
@@ -9,8 +11,8 @@
             <div class="row">
                 <div class="col-lg-10 col-md-10 mx-auto">
                     <div class="site-heading">
-                        <h1>Hi, I am Andrej</h1>
-                        <span class="subheading">Software engineer based in Macedonia</span>
+                        <h1>Andrej Nankov</h1>
+                        <span class="subheading">Software engineer based in Skopje, Macedonia</span>
                     </div>
                 </div>
             </div>
@@ -20,38 +22,23 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto text-justify">
-                <p>{{ $siteDescription }}</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
                 @markdown
+                ## Intro
 
-                Simplicity is the key to great user experiences. Create fewer features, but make them great instead of just good.
-                Show fewer elements, use simplistic styling to reduce cognitive load. Dare to say ‘No’ to prevent the core
-                functionality from being lost in the noise.
+                Hello, and welcome to my **personal website**. My name is **Andrej Nankov** but I introduce myself as **nanorocks**.
+                I use this nick as better introduction to myself on the internet. This nick is tide connect to my **social life** and my **field of work**.
 
-                > Don’t go for ‘WOW’, go for ‘of course’
+                On this site you can find content most about **my work as a software engineer**, **experience in various fields of IT**, **open-source**, **solved problems**, **how to grow as an engineer**
+                and **blog posts** related to contend that is interesting to **[read](/blog)** and **[know](/blog)**.
 
-                Never chase the **‘wow-effect’**. Product design succeeds when it solves the problem or need of our users in the best possible way.
-                Design the product effective & delightful. The reaction we are after from our users is “Of course, that is obvious”.
-
-                I wrote down some design _principles_ for our team to help us make design decisions:
-
-                - Define the problem first
-                - Create more value by creating less
-                - Strive for consistency
-                - Focus the user on one primary action at a time
-                - Use your user’s language
-                - Minimize user input
-
-                ---
-
-                Check the complete post here:
-
-                https://medium.com/@WdeB/digital-product-design-principles-8bc9eb6c080c
-
+                **My goal is to be better self promoted to the IT world and to share my knowledge with others.**
                 @endmarkdown
-
+                <br>
+                @markdown
+                ### Favorite quote
+                > ##### **"Talk is cheap. Show me the code."  - Linus Torvalds**
+                ---
+                @endmarkdown
                 @include('_includes.load_posts')
 
             </div>

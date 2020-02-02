@@ -1,6 +1,6 @@
 @extends('_includes.base')
 
-@section('pageTitle', '- About')
+@section('pageTitle', 'About')
 
 @section('body')
     <header class="masthead" style="background-image: url(@url('assets/img/about-bg.jpg'))">
@@ -48,8 +48,8 @@
 
 
                 ## Blog
-                Content about technology.
-                **[Click here](/blog)**
+                Content about code and technology click
+                **[here](/blog)**.
                 @endmarkdown
             </div>
         </div>

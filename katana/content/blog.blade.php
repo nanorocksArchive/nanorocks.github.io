@@ -1,6 +1,6 @@
 @extends('_includes.base')
 
-@section('pageTitle', '- Blog')
+@section('pageTitle', 'Blog')
 
 @section('body')
 
@@ -12,7 +12,7 @@
                 <div class="col-lg-10 col-md-10 mx-auto">
                     <div class="page-heading">
                         <h1>Blog</h1>
-                        <span class="subheading">Here I share my personal views and experiences</span>
+                        <span class="subheading">Here you can read and explore blog posts</span>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-<h3>From the blog</h3>
+<h3>Blog posts</h3>
 
 @foreach($blogPosts as $blogPost)
     <a href="@url($blogPost->path)">{{ $blogPost->title }}</a><br>
