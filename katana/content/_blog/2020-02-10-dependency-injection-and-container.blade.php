@@ -20,7 +20,7 @@
         -  `interface injection:` the dependency provides an injector method that will inject the dependency into any class passed to it. Classes must implement an interface that exposes a setter method that accepts the dependency.
     @endmarkdown
 
-    <h2>In Dept</h2>
+    <h2>In depth</h2>
     <h5>Constructor injection is useful when:</h5>
     <ul>
         <li>
